@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login function testing",
+        "description": "",
+        "id": "insta-functionality-testing;login-function-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13496476500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on insta page",
+            "match": {
+              "location": "StepDefinition.user_is_on_insta_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9389719800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter username and password",
+            "match": {
+              "location": "StepDefinition.user_should_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141213300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click login",
+            "match": {
+              "location": "StepDefinition.user_should_click_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 195400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on main page",
+            "match": {
+              "location": "StepDefinition.user_is_on_main_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Insta functionality testing",
+    "description": "",
+    "id": "insta-functionality-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/CucumberJenkins/src/test/resources/Feature/cucumber.feature",
+    "tags": []
+  }
+]
